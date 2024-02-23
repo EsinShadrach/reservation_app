@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "975104995404",
+    "project_id": "fir-codelab-d4a54",
+    "storage_bucket": "fir-codelab-d4a54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975104995404:android:b37f2263cc1761e2f3c4e9",
+        "android_client_info": {
+          "package_name": "com.example.reservation_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlOenERtlyMs8BKof2Vu5iTB7o_f40OFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
