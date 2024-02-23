@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 import 'package:reservation_app/src/widgets.dart';
 
 class HomePage extends StatelessWidget {
@@ -12,10 +13,16 @@ class HomePage extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
-          Image.asset('assets/codelab.png'),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(10),
+              child: Image.asset('assets/codelab.png'),
+            ),
+          ),
           const SizedBox(height: 8),
-          const IconAndDetail(Icons.calendar_today, 'October 30'),
-          const IconAndDetail(Icons.location_city, 'San Francisco'),
+          const IconAndDetail(LucideIcons.calendar, 'October 30'),
+          const IconAndDetail(LucideIcons.mapPin, 'San Francisco'),
           const Divider(
             height: 8,
             thickness: 1,
